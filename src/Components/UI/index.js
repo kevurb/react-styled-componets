@@ -5,6 +5,9 @@ export const Icono = styled.img`
     height: 25px;
     
  `
+ export const IconoTema =  styled(Icono)`
+  filter: ${({theme}) => theme.filter } ;
+ `
 
 export const Boton = styled.button `
     margin: 15px auto 0px auto;
@@ -45,3 +48,11 @@ export const Detalle = styled.span`
   color: #41d3be;
   font-size: 24px;
   `
+export const BotonTheme = styled.div`
+  position: absolute;
+  top: 4vh;
+  right: 20px;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+`

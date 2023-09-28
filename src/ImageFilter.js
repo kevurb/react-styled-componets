@@ -3,17 +3,17 @@ import utilidades from "./assets/images/utilidades.svg"
 import salud from "./assets/images/salud.svg"
 import transporte from "./assets/images/transporte.svg"
 import otros from "./assets/images/otros.svg"
-import { Icono } from "./Components/UI"
+import { IconoTema, IconoTemaTema} from "./Components/UI"
 import React from "react";
 export default (type)=>{
     // console.log(type)
     const Images = {
-        default: <Icono src={otros} alt="otros"></Icono> ,
-        Restaurante: <Icono src={alimentacion} alt="alimentacion"></Icono> ,
-        Utilidades:<Icono src={utilidades} alt="utilidades"></Icono>,
-        Otros : <Icono src={otros} alt="otros"></Icono>,
-        Salud: <Icono src={salud} alt="salud"></Icono>,
-        Transporte: <Icono src={transporte} alt ="transporte" ></Icono>,
+        default: <IconoTema src={otros} alt="otros"></IconoTema> ,
+        Restaurante: <IconoTema src={alimentacion} alt="alimentacion"></IconoTema> ,
+        Utilidades:<IconoTema src={utilidades} alt="utilidades"></IconoTema>,
+        Otros : <IconoTema src={otros} alt="otros"></IconoTema>,
+        Salud: <IconoTema src={salud} alt="salud"></IconoTema>,
+        Transporte: <IconoTema src={transporte} alt ="transporte" ></IconoTema>,
 
 
     };
